@@ -1,0 +1,30 @@
+<?php
+/*
+ * Copyright (c) 2024.
+ * Develop By: ahmad faizal azizi
+ * Github: https://github.com/ahmdfzl07
+ * Phone : 0857-7032-2355
+ * Email : ahmadfaizal@gmail.com
+ */
+
+namespace Database\Seeders;
+
+use App\Models\Poliklinik;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Carbon;
+
+class PoliklinikSeeder extends Seeder
+{
+
+    public function run(): void
+    {
+        $result = [];
+        $temp1 = ["Dokter UMUM", "Spesialist THT", "Dokter ANAK"];
+        $date = Carbon::now()->format('Y-m-d H:i:s');
+        for ($i = 0; $i < count($temp1); $i++) {
+            $temp2 = ['name' => $temp1[$i],'created_at' => $date,'updated_at' => $date];
+            array_push($result, $temp2);
+        }
+        Poliklinik::insert($result);
+    }
+}

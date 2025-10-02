@@ -1,0 +1,50 @@
+## MyKlinik v.1.0
+Aplikasi berbasis web untuk manajemen klinik seperti: apotik, pendaftaran dan riwayat pengobatan.
+
+## System
+- Framework Laravel 10.43.0
+- Database MySQL
+
+## Panduan Installasi Web Laravel
+- Clone Repository
+- Buka Terminal dan ketik composer install
+- Buat database kosong dengan nama: myklinik
+- Copy env.example dan rename dengan nama .env
+- ketik terminal: php artisan key:generate
+- ketik terminal: php artisan migrate:fresh --seed
+- ketik terminal: php artisan serve
+
+## Info Login:
+#### Administrator:
+    - Username: admin@gmail.com
+    - Password: 1234
+#### Bag.Pendaftaran:
+    - Username: pendaftaran@gmail.com
+    - Password: 1234
+#### Bag.Dokter:
+    - Username: dokter@gmail.com
+    - Password: 1234
+
+## Panduan Installasi Android:
+- developed not started yet
+
+## Gallery
+
+#### Gambar:Halaman Administrator:
+<br />
+<img src="https://github.com/ahmdfzl07/myklinik/blob/main/IMAGES/gambar1.png?raw=true" width="1200px">
+<br />
+
+#### Gambar:Halaman Pendaftaran:
+<br />
+<img src="https://github.com/ahmdfzl07/myklinik/blob/main/IMAGES/gambar2.png?raw=true" width="1200px">
+
+<br /> 
+
+#### Gambar:Halaman Dokter:
+ 
+<br />
+<img src="https://github.com/ahmdfzl07/myklinik/blob/main/IMAGES/gambar3.png?raw=true" width="1200px">
+
+<br />
+<img src="https://github.com/ahmdfzl07/myklinik/blob/main/IMAGES/gambar4.png?raw=true" width="1200px">
