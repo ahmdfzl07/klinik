@@ -107,8 +107,8 @@
     },{
         "id": 8,
         "shop": [{
-            "img": "assets/images/companies/img-1.png",
-            "img_alt": "img-1.png",
+            "img": "assets/images/companies/img-0.png",
+            "img_alt": "img-0.png",
             "name": "Force Medicines"
         }],
         "seller": "David Marshall",

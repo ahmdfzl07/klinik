@@ -15,12 +15,12 @@
                         </a>
 
                         <a href="{{route('adm.dashboard')}}" class="logo logo-light">
-                        <span class="logo-sm">
+                        <!-- <span class="logo-sm">
                             <img src="{{asset('template/velzon/assets/images/logo-sm.png')}}" alt="" height="22">
                         </span>
                             <span class="logo-lg">
                             <img src="{{asset('template/velzon/assets/images/logo-light.png')}}" alt="" height="17">
-                        </span>
+                        </span> -->
                         </a>
                     </div>
 

@@ -39,7 +39,7 @@ class PoliklinikController extends Controller
         }
 
         return view('admin.poliklinik', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'poliklinik',
             'secondMenu' => 'poliklinik',
         ));

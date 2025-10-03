@@ -40,7 +40,7 @@ class GolonganController extends Controller
         }
 
         return view('admin.golongan', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'myData',
             'secondMenu' => 'golongan',
         ));

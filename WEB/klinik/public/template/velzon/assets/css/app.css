@@ -16126,7 +16126,7 @@ body::before {
   --vz-card-bg-fill: transparent;
 }
 [data-bs-theme=dark][data-body-image=img-1] {
-  --vz-body-bg-image: url("../images/galaxy/img-1.png");
+  --vz-body-bg-image: url("../images/galaxy/img-0.png");
 }
 [data-bs-theme=dark][data-body-image=img-2] {
   --vz-body-bg-image: url("../images/galaxy/img-2.png");
@@ -16135,7 +16135,7 @@ body::before {
   --vz-body-bg-image: url("../images/galaxy/img-3.png");
 }
 [data-bs-theme=dark] [for=body-img-one] {
-  background-image: url("../images/galaxy/img-1.png");
+  background-image: url("../images/galaxy/img-0.png");
   background-size: cover;
 }
 [data-bs-theme=dark] [for=body-img-two] {

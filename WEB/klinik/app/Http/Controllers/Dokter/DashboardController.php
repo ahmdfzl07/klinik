@@ -34,7 +34,7 @@ class DashboardController extends Controller
     public function index()
     {
         return view('dokter.dashboard', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'dashboard',
             'secondMenu' => 'dashboard',
         ));

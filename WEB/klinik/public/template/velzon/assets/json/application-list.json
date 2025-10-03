@@ -57,7 +57,7 @@
         "status": "Pending"
     },{
         "id": "009",
-        "company": ["assets/images/companies/img-1.png", "Digitech Galaxy"],
+        "company": ["assets/images/companies/img-0.png", "Digitech Galaxy"],
         "designation": "Magento Developer",
         "date": "29 Sep, 2022",
         "contacts": "517-745-4446",

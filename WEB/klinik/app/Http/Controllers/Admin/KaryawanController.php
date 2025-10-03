@@ -41,7 +41,7 @@ class KaryawanController extends Controller
         }
 
         return view('admin.karyawan.index', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'karyawan',
             'secondMenu' => 'karyawan',
         ));
@@ -60,7 +60,7 @@ class KaryawanController extends Controller
     {
         $role = Role::karyawan()->get();
         return view('admin.karyawan.add', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'karyawan',
             'secondMenu' => 'karyawan',
             'dataRole' => $role
@@ -74,7 +74,7 @@ class KaryawanController extends Controller
                 $user = User::with('karyawan')->findOrFail(decrypt($id));
                 $role = Role::karyawan()->get();
                 return view('admin.karyawan.edit', array(
-                    'title' => "Dashboard Administrator | MyKlinik v.1.0",
+                    'title' => "Dashboard Administrator | Klinik v.1",
                     'firstMenu' => 'karyawan',
                     'secondMenu' => 'karyawan',
                     'dataRole' => $role,

@@ -27,7 +27,7 @@
         "since": "2001"
     },{
         "id": 3,
-        "companyLogo": "assets/images/companies/img-1.png",
+        "companyLogo": "assets/images/companies/img-0.png",
         "companyName": "Moetic Fashion",
         "industryType": "Textiles: Clothing, Footwear",
         "vacancy": "641",
@@ -53,7 +53,7 @@
         "since": "2019"
     },{
         "id": 5,
-        "companyLogo": "assets/images/companies/img-1.png",
+        "companyLogo": "assets/images/companies/img-0.png",
         "companyName": "Kent's",
         "industryType": "IT Department",
         "vacancy": "10",
@@ -170,7 +170,7 @@
         "since": "2016"
     },{
         "id": 14,
-        "companyLogo": "assets/images/companies/img-1.png",
+        "companyLogo": "assets/images/companies/img-0.png",
         "companyName": "Asiatic Solutions",
         "industryType": "Health Services",
         "vacancy": "9",
@@ -183,7 +183,7 @@
         "since": "2019"
     },{
         "id": 15,
-        "companyLogo": "assets/images/companies/img-1.png",
+        "companyLogo": "assets/images/companies/img-0.png",
         "companyName": "Great Clothes",
         "industryType": "Textiles: Clothing, Footwear",
         "vacancy": "60",

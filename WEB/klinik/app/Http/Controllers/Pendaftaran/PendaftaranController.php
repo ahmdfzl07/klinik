@@ -58,7 +58,7 @@ class PendaftaranController extends Controller
         $onProses = $rekam->where('status', '=',"1")->sortBy('id')->first();
 
         return view('front.pendaftaran', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'pendaftaran',
             'secondMenu' => 'pendaftaran',
             'dataPasien' => $dataPasien,

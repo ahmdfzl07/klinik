@@ -63,7 +63,7 @@
                                                     <button type="button" data-bs-target="#qoutescarouselIndicators"
                                                             data-bs-slide-to="2" aria-label="Slide 3"></button>
                                                 </div>
-                                                <div class="carousel-inner text-center text-white pb-5">
+                                                <!-- <div class="carousel-inner text-center text-white pb-5">
                                                     <div class="carousel-item active">
                                                         <p class="fs-15 fst-italic">" Great! Clean code, clean design,
                                                             easy for customization. Thanks very much! "</p>
@@ -76,7 +76,7 @@
                                                         <p class="fs-15 fst-italic">" Great! Clean code, clean design,
                                                             easy for customization. Thanks very much! "</p>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <!-- end carousel -->
                                         </div>
@@ -133,7 +133,7 @@
                                                 <button type="submit" class="btn btn-primary w-100">Sign In</button>
                                             </div>
 
-                                            <div class="mt-4 text-center">
+                                            <!-- <div class="mt-4 text-center">
                                                 <div class="signin-other-title">
                                                     <h5 class="fs-13 mb-4 title">Sign In with</h5>
                                                 </div>
@@ -152,16 +152,16 @@
                                                             class="btn btn-info btn-icon waves-effect waves-light"><i
                                                             class="ri-twitter-fill fs-16"></i></button>
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                         </form>
                                     </div>
 
-                                    <div class="mt-5 text-center">
+                                    <!-- <div class="mt-5 text-center">
                                         <p class="mb-0">Don't have an account ? <a href="{{route('register')}}"
                                                                                    class="fw-semibold text-primary text-decoration-underline">
                                                 Signup</a></p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <!-- end col -->

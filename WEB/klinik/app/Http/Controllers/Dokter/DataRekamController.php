@@ -50,7 +50,7 @@ class DataRekamController extends Controller
         $this->totalSelesai =  $rekam->where('status','2')->count();
         $dataPasien= $rekam->whereIn('status',['0','1']);
         return view('dokter.pemeriksaan', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'pemeriksaan',
             'secondMenu' => 'pemeriksaan',
             'dataRekam' => $dataPasien,
@@ -64,7 +64,7 @@ class DataRekamController extends Controller
             $idPasien = base64_decode($id);
             $pasien = Pasien::findOrFail($idPasien);
             return view('dokter.detailpasien', array(
-                'title' => "Dashboard Administrator | MyKlinik v.1.0",
+                'title' => "Dashboard Administrator | Klinik v.1",
                 'firstMenu' => 'pemeriksaan',
                 'secondMenu' => 'pemeriksaan',
                 'dataPasien' => $pasien
@@ -92,7 +92,7 @@ class DataRekamController extends Controller
                 }
 
                 return view('dokter.detailpemeriksaan', array(
-                    'title' => "Dashboard Administrator | MyKlinik v.1.0",
+                    'title' => "Dashboard Administrator | Klinik v.1",
                     'firstMenu' => 'pemeriksaan',
                     'secondMenu' => 'pemeriksaan',
                     'dataPasien' => $dataPasien

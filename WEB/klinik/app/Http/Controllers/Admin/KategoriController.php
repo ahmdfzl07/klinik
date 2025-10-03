@@ -39,7 +39,7 @@ class KategoriController extends Controller
         }
 
         return view('admin.kategori', array(
-            'title' => "Dashboard Administrator | MyKlinik v.1.0",
+            'title' => "Dashboard Administrator | Klinik v.1",
             'firstMenu' => 'myData',
             'secondMenu' => 'kategori',
         ));
