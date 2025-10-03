@@ -10,7 +10,6 @@
     <!-- apexcharts -->
     <script src="{{asset('template/velzon/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
-    <!-- Vector map-->
     <script src="{{asset('template/velzon/assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
     <script src="{{asset('template/velzon/assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
