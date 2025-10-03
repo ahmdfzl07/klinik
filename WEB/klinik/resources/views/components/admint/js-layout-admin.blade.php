@@ -7,7 +7,6 @@
     <script src="{{asset('template/velzon/assets/js/pages/plugins/lord-icon-2.1.0.js')}}"></script>
     <script src="{{asset('template/velzon/assets/js/plugins.js')}}"></script>
 
-    <!-- apexcharts -->
     <script src="{{asset('template/velzon/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
     <script src="{{asset('template/velzon/assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
